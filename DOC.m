@@ -10,9 +10,7 @@ function [overlap_vector,dissimilarity_vector] = DOC(X,dissimilarity_mode)
 % 'spearman' for Spearman distance
 %
 % overlap_vector and dissimilarity_vecotr are the output overlap and
-% dissimilarity values beween the observations, respectievly.
-
-%mode = Ouc or rjsd
+% dissimilarity values between each pair of observations, respectievly.
 
 O = @(x,y) 0.5*(sum(x)+sum(y));%Overlap function
 
